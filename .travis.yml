@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode11
+
+branches:
+  only:
+  - master
+
+script:
+  - xcodebuild -project MaterialDesignSpinner.xcodeproj -scheme MaterialDesignSpinner -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro' build
+  - pod lib lint --quick
