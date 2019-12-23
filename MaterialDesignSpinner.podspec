@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name           = "MaterialDesignSpinner"
   s.platform       = :ios
-  s.version        = "1.0.0"
-  s.ios.deployment_target = "11.0"
+  s.version        = "1.0.1"
+  s.ios.deployment_target = "10.0"
   s.summary        = "An iOS activity spinner modeled after Google's Material Design Spinner"
   s.author         = { "Bas van Kuijck" => "bas@e-sites.nl" }
   s.license        = { :type => "MIT", :file => "LICENSE" }
