@@ -144,7 +144,7 @@ open class MaterialDesignSpinner: UIView {
         }
     }
 
-    public func startAnimating() {
+    open func startAnimating() {
         if isAnimating {
             return
         }
@@ -197,7 +197,7 @@ open class MaterialDesignSpinner: UIView {
         }
     }
 
-    public func stopAnimating() {
+    open func stopAnimating() {
         if !isAnimating {
             return
         }
